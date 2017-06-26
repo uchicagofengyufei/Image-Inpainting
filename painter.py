@@ -156,5 +156,4 @@ for i in range(0,60):
     im_c = Image.fromarray(get_image_array(X_cor_view,i))
     im_c.save('C:/Users/zjufe/PycharmProjects/Inpainting/out/Rec_{}.jpg'.format(i))
 
-# train 0.005404
-# test 0.046416
+
