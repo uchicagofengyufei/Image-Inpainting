@@ -156,7 +156,3 @@ for i in range(0,512):
     im.save('C:/Users/zjufe/PycharmProjects/Inpainting/out/{}_View.jpg'.format(i))
     im_s = toimage(test_seg[i,0,:,:])
     im_s.save('C:/Users/zjufe/PycharmProjects/Inpainting/out/{}_Seg.jpg'.format(i))
-
-
-# train 0.005404
-# test 0.046416
