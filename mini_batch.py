@@ -44,3 +44,4 @@ def iterate_minibatches_pair(inputs,targets, batchsize, shuffle=False):
             excerpt = slice(start_idx, start_idx + batchsize)
 
         yield inputs[excerpt],targets[excerpt]
+        
