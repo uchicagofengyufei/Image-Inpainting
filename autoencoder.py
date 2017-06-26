@@ -148,3 +148,5 @@ for i in range(0,5):
     im.save('C:/Users/zjufe/PycharmProjects/Inpainting/out/View_{}.jpg'.format(i))
     im_c = Image.fromarray(get_image_array(rec_img,i))
     im_c.save('C:/Users/zjufe/PycharmProjects/Inpainting/out/Rec_{}.jpg'.format(i))
+
+    
