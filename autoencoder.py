@@ -134,7 +134,6 @@ for epoch in range(num_epochs):
 
     ################### View reconstruction###########
 
-
 def get_image_array(X, index, shp=(96,96), channels=3):
     #print(X[index].shape)
     ret = (X[index] * 255.).transpose(1,2,0).astype(numpy.uint8)
