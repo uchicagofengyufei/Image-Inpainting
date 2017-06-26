@@ -212,6 +212,7 @@ def load_seg_image(isTrain):
         flower = flower[seg_ind]
         print("Load Training set flower")
     else:
+
         flower = numpy.delete(flower, seg_ind, axis=0)
         print("Load Test set flower")
 
