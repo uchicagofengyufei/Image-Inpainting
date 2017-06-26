@@ -233,8 +233,4 @@ for i in range(0,60):
     im_c = Image.fromarray(get_image_array(X_cor_view,i))
     im_c.save('C:/Users/zjufe/PycharmProjects/Inpainting/out/Rec_{}.jpg'.format(i))
 
-# 0.0492896 for 0.98/0.02
-# 0.04557539 for
-# 0.236 for 0.90/0.1
 
-# 0.0501 for sgd 0.1
