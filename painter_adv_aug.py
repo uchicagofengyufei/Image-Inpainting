@@ -239,6 +239,3 @@ for i in range(0,60):
     im.save('C:/Users/zjufe/PycharmProjects/Inpainting/out/View_{}.jpg'.format(i))
     im_c = Image.fromarray(get_image_array(X_cor_view,i))
     im_c.save('C:/Users/zjufe/PycharmProjects/Inpainting/out/Rec_{}.jpg'.format(i))
-
-# adv adam 100,200 0.0467 0.02
-# adv sgd 50,120 0.0487 0.1
